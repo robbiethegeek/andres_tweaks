@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implementation of hook_form_alter()
+ */
+function andres_tweaks_form_alter(&$form, $form_state, $form_id) {
+  dsm($form_id);
+  if ($form_id == 'replace_me_with_real_form_id'){
+    
+  }
+}
